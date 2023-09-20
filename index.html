@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+
+    <!-- ============================ Link CSS ================================ -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1 class=" main_heading">Application Form</h1>
+            <hr>
+            <h2>Personal Details</h2>
+            <hr>
+            <p> Name : <input type="text" name="Name" required placeholder="Enter Your Name"></p>
+            <p> Last Name : <input type="text" name="Last Name" required placeholder="Enter Your Surname"></p>
+            <p>Geneder: </p>
+            <fieldset>
+                <p>
+                    Male : <input type="radio" name="geneder" id="geneder" required><br><br>
+                    Female : <input type="radio" name="geneder" id="geneder" required><br><br>
+                    Other : <input type="radio" name="geneder" id="geneder" required>
+                </p>
+            </fieldset>
+            <p>Address : <textarea name="add" id="add" cols="100" rows="5" placeholder="Enter Your Address"></textarea></p>
+            <p>Date Of Birth (DOB) : <input type="date" name="Date Of Birth" id="Date Of Birth" required placeholder="DD-MM-YYY"></p>
+            <p>Nationality: 
+                <select name="Nationality" id="Nationality" required>
+                    <option value="">Select Your Nation / Country</option>
+                    <option value="India">India</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Jarmany">Jarmany</option>
+                    <option value="US">US</option>
+                    <option value="UK">UK</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Ukrain">Ukrain</option>
+                    <option value="New York">New York</option>
+                    <option value="Fransh">Fransh</option>
+                </select>
+            </p>
+            <hr>
+            <h2>Contact Information</h2>
+            <hr>
+            <p>Phone Number : <input type="number" name="phone number" id="phone number" required placeholder="Enter Your Number"></p>
+            <p>Phone Number : <input type="number" name="phone number" id="phone number" required placeholder="Enter Your Another Number"></p>
+            <p>E-mail : <input type="email" name="email" id="email" required placeholder="Enter Your E-mail Address"></p>
+            <hr>
+            <h2>Eductional Information</h2>
+            <hr>
+            <h3>Highest level of eduction (HSE) : </h3>
+            <p>
+                HSE Marks : <input type="number" name="HSE Marks" id="HSE Marks" required placeholder="Enter Your Parcantage"><br><br>
+                HSE Year : <input type="number" name="HSE Year" id="HSE Year" required placeholder="YYYY">
+            </p>
+            <br>
+            <h3>Collage Eduction Information</h3>
+            <p>
+                Collage(Institute) Name : <input type="text" name="Collage(Institute) Name" id="Collage(Institute) Name" required placeholder="Enter Your Collage Name">
+            </p>
+            <p>Degree Name : <input type="text" name="degree name " id="degree name " required placeholder="B.sc"></p>
+            <p>Year of Greduation : <input type="number" name="Greduation year" id="Greduation year" required placeholder="YYYY"></p>
+            <hr>
+            <h2>Work Experiance</h2>
+            <hr>
+            <h3>Pervious Employment History: </h3>
+            <p>
+                Comapny Name : <input type="text" name="Comapny name" id="Comapny name" required placeholder="Enter Your Comapny Name"> 
+            </p>
+            <p>
+                Job Tittle : <input type="text" name="job tittle" id="job tittle" required placeholder="Enter Your JOb Tittle">
+            </p>
+            <p>
+                Work Experiance : <input type="number" name="number" id="number" required placeholder="Enter Your Work Experiance Year">
+            </p>
+            <hr>
+            <h2>Skills and Language : </h2>
+            <hr>
+            <p>
+                Skills : <input type="text" name="skill" id="skill" required placeholder="Enter Your Skill">
+                <input type="text" name="skill" id="skill" placeholder="Enter Your skill">
+                <input type="text" name="skill" id="skill" placeholder="Enter Your skill">
+            <h3>Select the Language You Known </h3>
+            <p>
+                <label>
+                    <input type="checkbox" name="language" value="english">
+                    English
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="language" value="Hindi">
+                    Hindi
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="language" value="Jarmany">
+                    Jarmany
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="language" value="Gujrati">
+                    Gujrati
+                </label>
+                <br>
+                Other : <input type="text" name="language" id="language">
+            </p>
+            <hr>
+            <h2>Refrence</h2>
+            <hr>
+            <p>
+                Name : <input type="text" name=" name" id="name" required placeholder="Enter a Name">
+            </p>
+            <p>
+                Phone Number : <input type="number" name=" number" id="number" required placeholder="Enter Phone Number">
+            </p>
+            <p>
+                E-mail : <input type="email" name="email" id="email" required placeholder=" Enter E-mail Address">
+            </p>
+            <hr>
+            <h2>Additional Information</h2>
+            <hr>
+            <h3>Work Time : </h3>
+            <p>
+                <input type="radio" name="Part-time" id="Part-time"> Part-Time <br><br>
+                <input type="radio" name="Full-time" id="Full-time"> Full-Time
+            </p>
+            <h3>Cover Latter : </h3>
+            <p>
+                Write Your Interest : <textarea name="text" id="write Your Interest" cols="100" rows="10"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Submit Application">
+            </p>
+
+            <p>
+                <input type="reset" value="Remove Information">
+            </p>
+        </form>
+    </div>
+</body>
+</html>

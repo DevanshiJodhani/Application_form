@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Belanosima&family=Josefin+Sans:wght@100&family=Poppins:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Ubuntu&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    margin: 20px 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container{
+    background-color: rgb(223, 226, 232);
+    padding: 5px 20px 15px 20px;
+    border: 2px solid rgb(32, 28, 6);
+    border-radius: 15px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"]
+input[type="Nationality"],
+input[type="phone number"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+fieldset{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.main_heading{
+    text-align: center;
+    color: rgb(243, 0, 0);
+}
+
+h2{
+    color: rgb(2, 143, 2);
+    padding: auto;
+}
+
+h3{
+    color: rgb(246, 76, 104);
+}
+
+p{
+    color: rgb(89, 0, 124);
+}
+
+input[type="submit"]{
+    background-color: rgb(10, 24, 157);
+    color: #fff;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+    width: 100%;
+    
+}
+input[type="submit"]:hover{
+    background-color: rgb(35, 137, 239);
+}
+
+input[type="reset"]{
+    background-color: rgb(10, 24, 157);
+    color: #fff;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+    width: 100%;
+    
+}
+input[type="reset"]:hover{
+    background-color: rgb(35, 137, 239);
+}
